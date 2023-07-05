@@ -1,0 +1,26 @@
+/* Boton */
+
+button {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: #ff000059 solid 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: rotate(5deg);
+}
+
+/* Contador */
+
+.contador {
+    border: white solid;
+    border-radius: 10px;
+    padding: 9px 12px;
+}
